@@ -1,6 +1,6 @@
 import "./App.css";
-import Hero from "./Component/Hero";
-import Navigation from './Component/Navigation'
+import Hero from "./Hero";
+import Navigation from './Navigation'
 
 const App = () =>{
     return(
