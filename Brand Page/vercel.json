@@ -1,0 +1,17 @@
+
+{
+
+    "verson":2,
+    "builds":[
+        {
+            "src":"index.js",
+            "use":"@now/node"
+        }
+    ],
+    "router":[
+        {
+            "src":"/(.*)",
+            "dest":"index.js"
+        }
+    ]
+}
